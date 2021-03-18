@@ -7,6 +7,4 @@ const server = http.createServer((req, res) => {
   res.end(msg);
 });
 
-server.listen(port, () => {
-  console.log(`Server running on http://10.0.9.132:8080/`);
-});
+
