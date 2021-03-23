@@ -1,5 +1,5 @@
 const http = require('http');
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
@@ -8,5 +8,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(`Server running on http://52.255.236.178:${port}/`);
+  console.log(`Server running on http://40.71.94.224:${port}/`);
 });
