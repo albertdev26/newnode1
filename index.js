@@ -3,7 +3,7 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node demo pipe!\n'
+  const msg = 'Hello Node demo!\n'
   res.end(msg);
 });
 
